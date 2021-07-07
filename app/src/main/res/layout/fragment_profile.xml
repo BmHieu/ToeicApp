@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="1000dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.ProfileFragment"
+    android:background="@drawable/bg_profile"
+    >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-3dp"
+        android:src="@drawable/logo"
+        ></ImageView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="370dp"
+        android:layout_height="1000dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="110dp"
+        android:background="@color/white"
+        android:outlineAmbientShadowColor="@color/black"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="25dp">
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:text="Bm Hieu"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="130dp"
+        app:cardCornerRadius="200dp"
+        android:background="@drawable/avtoval"
+        android:layout_centerVertical="true">
+        <ImageView
+            android:id="@+id/avt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/avtoval"
+            android:scaleType="centerCrop"
+            ></ImageView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="235dp"
+        android:background="@color/white"
+        android:outlineAmbientShadowColor="@color/yellow"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="20dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/vct_frameshape" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:text="Điểm tích lũy\ntrung bình"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/violet"
+            android:textSize="44dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="235dp"
+        android:layout_marginRight="45dp"
+        android:background="@color/white"
+        android:outlineAmbientShadowColor="@color/yellow"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/vct_frameshape" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:text="Bài thi đã\nhoàn thành"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/countexam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="@color/violet"
+            android:textSize="44dp" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btngolearnpro"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginHorizontal="48dp"
+        android:layout_marginTop="375dp"
+        android:background="@drawable/vct_golearnpro"
+        android:backgroundTint="@color/black"
+        app:backgroundTint="#00000000"
+        app:backgroundTintMode="add" />
+    <Button
+        android:id="@+id/btnsettings"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginHorizontal="48dp"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/vct_settings"
+        app:backgroundTint="#00000000"
+        app:backgroundTintMode="add" />
+    <Button
+        android:id="@+id/btnhelp"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginHorizontal="48dp"
+        android:layout_marginTop="475dp"
+        android:background="@drawable/vct_help"
+        app:backgroundTint="#00000000"
+        app:backgroundTintMode="add"/>
+    <Button
+        android:id="@+id/btnreview"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginHorizontal="48dp"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/vct_reviews"
+        app:backgroundTint="#00000000"
+        app:backgroundTintMode="add"/>
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="197dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="565dp"
+        android:background="@drawable/vct_logout"
+        app:backgroundTint="#00000000"
+        app:backgroundTintMode="add"/>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SignUpSuccessActivity"
+    android:background="@drawable/bg_profile">
+
+    <TextView
+        android:id="@+id/textviewDangKy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageviewcheckicon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/textviewDangKy"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_baseline_check_circle_24"
+        app:backgroundTint="@color/green"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageviewcheckicon"
+        android:text="Đăng ký tài khoản thành công\nXin cảm ơn!!!"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <Button
+        android:id="@+id/btnSigninNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Đăng nhập ngay!!!"
+        android:background="@drawable/radiusbtn"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/yellow"
+        style="?android:attr/borderlessButtonStyle"/>
+
+</RelativeLayout>

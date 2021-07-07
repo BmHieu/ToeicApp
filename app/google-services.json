@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "51294641986",
+    "project_id": "toeicapp-ee2c6",
+    "storage_bucket": "toeicapp-ee2c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51294641986:android:ec9c3b8c8db47af884b2db",
+        "android_client_info": {
+          "package_name": "com.congnghejava.toeicapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51294641986-fk5bte3ed001hivm74dshp7hclnt9j0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4hp8Z0d5yRf00mZhtq_X-q-jnzgjNXRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51294641986-fk5bte3ed001hivm74dshp7hclnt9j0s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

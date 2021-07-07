@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.congnghejava.toeicapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ToeicApp">
+        <activity android:name=".activity.WelcomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ChangePasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ProfileSettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ResetPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SignUpSuccessActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TrungCapReadingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TrungCapReadingPart6Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TrungCapReadingPart5Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TrungCapListeningPart4Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TrungCapListeningPart3Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TrungCapListeningPart2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TrungCapListeningPart1Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TrungCapListeningActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".handle.HandlePracticeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".handle.HandleReadingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.GaMoReadingPart6Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.GaMoReadingPart5Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".handle.HandleListeningActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ShowResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.GaMoReadingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.GaMoListeningPart4Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.GaMoListeningPart3Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.GaMoListeningPart2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.GaMoListeningPart1Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.GaMoListeningActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DashboardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
